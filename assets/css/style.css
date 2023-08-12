@@ -68,6 +68,7 @@
 .main__empresa__conteudo{
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
   gap: 20px;
 }
 
@@ -187,18 +188,20 @@
 
 .main__sobre__conteudo{
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
+  gap: 40px;
   padding: 4rem 0;
 }
 
-.main__sobre__imagem{
+.main__sobre__video{
   width: 50%;
   height: 300px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .main__sobre__texto{
-  width: 50%;
+  width: 40%;
 }
 
 .main__sobre__texto h2{
