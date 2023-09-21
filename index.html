@@ -143,6 +143,44 @@
       </div>
     </section>
 
+    <section class="main__mapa">
+
+      <div class="container">
+
+        <div class="main__mapa__conteudo">
+
+          <h2>Nossas Unidades</h2>
+          <p>Encontre a <span id="mapa__nome__destaque">Pizza Master</span> mais próxima de você!</p>
+
+          <h3>Clique no Localizador do Mapa para encontrar nossas Unidades</h3>
+
+          <div class="mapa__conteudo">
+
+            <div>
+              <figure>
+                <img src="./assets/img/mapa.png" alt="Mapa" usemap="#mapaLojas">
+              </figure>   
+              <map name="mapaLojas">
+                <area shape="rect" coords="180,106,240,157" href="./mapa.html#mapaNorte" alt="Região Norte" title="Região Norte" target="janela">
+                <area shape="rect" coords="469,184,522,267" href="./mapa.html#mapaNordeste" alt="Região Nordeste" title="Região Nordeste" target="janela">
+                <area shape="rect" coords="273,289,319,367" href="./mapa.html#mapaCentroOeste" alt="Região Centro Oeste" title="Região Centro Oeste" target="janela">
+                <area shape="rect" coords="420,348,465,415" href="./mapa.html#mapaSudeste" alt="Região Sudeste" title="Região Sudeste" target="janela">
+                <area shape="rect" coords="316,451,366,517" href="./mapa.html#mapaSul" alt="Região Sul" title="Região Sul" target="janela">
+              </map>    
+            </div>
+
+            <div>
+              <iframe src="./mapa.html" frameborder="0" name="janela" width="500" height="300" scrolling="no"></iframe>
+            </div>
+            
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
     <section class="main__contato" id="contato">
       <div class="container">
         <div class="main__contato__conteudo">

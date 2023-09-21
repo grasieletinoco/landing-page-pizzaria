@@ -234,6 +234,57 @@
   padding-bottom: 1rem;
 }
 
+.main__mapa{
+  background: linear-gradient(180deg, rgba(255,191,0,1) 0%, rgba(230,172,0,1) 100%);
+}
+
+.main__mapa__conteudo{
+  text-align: center;
+  padding: 4rem 0;
+}
+
+.main__mapa__conteudo h2{
+  font-family: 'Mochiy Pop One', sans-serif;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  color: #005e37;
+  padding-bottom: 1rem;
+}
+
+.main__mapa__conteudo p{
+  color: #800000;
+  font-size: 1.5rem;
+  font-weight: 900;
+}
+
+#mapa__nome__destaque{
+  text-transform: uppercase;
+  color: #B30000;
+  font-weight: 900;
+}
+
+.mapa__conteudo{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+  padding: 4rem 0;
+}
+
+.mapaRegioes{
+  margin: 400px 0;
+}
+
+.mapaRegioes h3{
+  color: #005e37;
+  font-weight: 900;
+  padding-bottom: 10px;
+}
+
+.mapaRegioes h4{
+  padding-top: 10px;
+}
+
 .main__contato{
   background-color: #f1f2f4;
 }
