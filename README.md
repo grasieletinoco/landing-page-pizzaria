@@ -1,12 +1,12 @@
-# Desafio: Projeto Landing Page - Descodificadas 2023
+# 👩‍💻Desafio: Projeto Landing Page - Descodificadas 2023
 
 
 
-#### O desafio será fazer um projeto em HTML, CSS e JavaScript de uma Landing Page
+##### ✔️ Trilha 01
 
+###### 💻*Desafio: Projeto de uma Landing Page em HTML, CSS e JavaScript* 
 
-
-###### O projeto deverá ter os seguintes itens obrigatórios:
+:pushpin: O Projeto deverá ter os seguintes ítens obrigatórios:
 
 - Logo
 - Menu
@@ -18,3 +18,16 @@
 - Mapa de localização
 - Formulário para coletar cadastro
 - Rodapé com a frase criado por "seunome" - apenas para fins didáticos
+
+
+
+##### ✔️ Trilha 02
+
+###### 💻 *Desafio: Aprimorar o site já construído na Trilha 1*
+
+:pushpin: Incluir Itens propostos nas Tarefas de Cada Módulo:
+
+- Acrescentar Meta Tags
+
+- Incluir Mapa de Imagem
+- Adicionar Imagem SVG
