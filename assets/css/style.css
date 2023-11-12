@@ -15,6 +15,7 @@
   
 }
 
+/*INICIO HEADER*/
 .header{
   height: 350px;
   background-image: linear-gradient( rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(../img/header-pizza.png);
@@ -60,7 +61,64 @@
   font-size: 6rem;
   padding-top: 2rem;
 }
+/*FINAL HEADER*/
 
+
+/*INICIO CARROSSEL*/
+.main__carrossel__container {
+  max-width: 900px;
+  position: relative;
+  margin: 2rem auto;
+}
+
+.main__carrossel__conteudo{
+  padding-bottom: 0;
+}
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 25px 8px;
+  position: absolute;
+  top: 0;
+}
+
+.main__carrossel__dot{
+  padding-top: 0.3rem;
+  text-align: center;
+}
+
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #B30000;
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+/*FINAL CARROSSEL*/
+
+
+/*INICIO EMPRESA*/
 .main__empresa{
   background-color: #f1f2f4;
 }
@@ -102,7 +160,10 @@
   text-align: left;
   padding: 5px 15px;
 }
+/*FINAL EMPRESA*/
 
+
+/*INICIO CARDAPIO*/
 .main__cardapio{
   background-color: #ECDAB3;
   padding: 4rem;
@@ -181,7 +242,10 @@
   color: #FFFFFF;
   padding: 0 38px;
 }
+/*FINAL CARDAPIO*/
 
+
+/*INICIO SOBRE*/
 .main__sobre{
   background-color: #f1f2f4;
 }
@@ -216,7 +280,10 @@
 .main__sobre__texto p{
   padding: 1rem;
 }
+/*FINAL SOBRE*/
 
+
+/*INICIO LOCALIZACAO*/
 .main__localizacao{
   background-color: #ECDAB3;
 }
@@ -233,7 +300,10 @@
   color: #005e37;
   padding-bottom: 1rem;
 }
+/*FINAL LOCALIZACAO*/
 
+
+/*INICIO MAPA*/
 .main__mapa{
   background: linear-gradient(180deg, rgba(255,191,0,1) 0%, rgba(230,172,0,1) 100%);
 }
@@ -284,7 +354,10 @@
 .mapaRegioes h4{
   padding-top: 10px;
 }
+/*FINAL MAPA*/
 
+
+/*INICIO CONTATO*/
 .main__contato{
   background-color: #f1f2f4;
 }
@@ -333,7 +406,10 @@
 .social-list li:hover {
   scale: 1.1;
 }
+/*FINAL CONTATO*/
 
+
+/*INICIO FORMULARIO*/
 .form__contato{
   width: 400px;
   height: 500px;
@@ -389,7 +465,10 @@
 #btn-contato-enviar:hover{
   background-color: #B30000;
 }
+/*FINAL FORMULARIO*/
 
+
+/*INICIO GALLERY*/
 .main__gallery{
   background-color: #ECDAB3;
 }
@@ -441,9 +520,10 @@
   font-weight: 900;
   padding-top: 6px;
 }
+/*FINAL GALLERY*/
 
 
-
+/*INICIO FOOTER*/
 footer{
   display: grid;
   justify-content: center;
@@ -462,7 +542,6 @@ footer h3{
 footer p{
   font-size: 0.7rem;
 }
-
 
 .footer_info{
   display: flex;
@@ -490,6 +569,8 @@ footer p{
 .footer_info ul li:hover {
   scale: 1.1;
 }
+/*FINAL FOOTER*/
+
 
 /*INICIO BUTTON BACK TO TOP*/
 #button-top {
@@ -517,6 +598,3 @@ footer p{
   background-color: #005e37;
 }
 /*FINAL BUTTON BACK TO TOP*/
-
-
-
