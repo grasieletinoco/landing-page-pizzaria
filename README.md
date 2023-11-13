@@ -28,6 +28,5 @@
 :pushpin: Incluir Itens propostos nas Tarefas de Cada Módulo:
 
 - Acrescentar Meta Tags
-
 - Incluir Mapa de Imagem
 - Adicionar Imagem SVG
