@@ -44,3 +44,22 @@ function showSlides() {
   setTimeout(showSlides, 5000);
 }
 //FINAL CARROSSEL
+
+
+
+//INICIO FORMULARIO
+function enviarFormulario() {
+
+  if (document.getElementById("nome").value === "" || document.getElementById("email").value === "" || document.getElementById("telefone").value === "" || document.getElementById("mensagem").value === "") {
+  
+  alert("Por favor, preencha todos os campos obrigatórios.");
+  
+  } else{
+  
+  alert("Formulário Enviado com Sucesso!");
+  }
+  
+}
+//FINAL FORMULARIO
+
+

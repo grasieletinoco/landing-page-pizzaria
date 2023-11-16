@@ -283,10 +283,10 @@
               </div>
               <div>
                 <label class="label__contato" for="telefone">Mensagem: </label>
-                <textarea class="textarea__contato" required minlength="30" maxlength="300" placeholder="Deixe sua Mensagem" cols="40" rows="10"></textarea>
+                <textarea class="textarea__contato" required id="mensagem" minlength="30" maxlength="300" placeholder="Deixe sua Mensagem" cols="40" rows="10"></textarea>
               </div>
               <div>
-                <button id="btn-contato-enviar" type="submit">Enviar</button>
+                <button id="btn-contato-enviar" type="submit" onclick=enviarFormulario()>Enviar </button>
               </div>
             </form>
           </div>
