@@ -27,6 +27,17 @@
 
 :pushpin: Incluir Itens propostos nas Tarefas de Cada Módulo:
 
-- Acrescentar Meta Tags
-- Incluir Mapa de Imagem
-- Adicionar Imagem SVG
+👉 *Ao longo da Trilha 2, você foi incorporando novas funcionalidades em seu código enquanto aprofundou os conhecimentos em HTML, CSS e JS.*
+
+👉 *Por isso, para a entrega final do código e a apresentação do seu site aprimorado, você deve ter:*
+
+- Usado metatags e tags semânticas
+- Feito menu dropdown ou sidebar
+- Usado pelo menos um card
+- Utilizado botões de link interno ou externo com efeitos (transições ou animações)
+- Adicionado imagens com carrossel
+- Usado grid e flexbox para posicionamento dos elementos do site
+- Usado um iframe
+- Deixado o site responsivo (usando media queries)
+- Usado o JavaScript para deixar o site interativo (envio de mensagens, execução de alguma tarefa etc.)
+
