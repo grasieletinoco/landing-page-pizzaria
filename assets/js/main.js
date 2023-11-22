@@ -63,3 +63,10 @@ function enviarFormulario() {
 //FINAL FORMULARIO
 
 
+
+//INICIO MENU
+function toggleMenu() {
+  var navList = document.getElementById("menu");
+  navList.classList.toggle('show__menu');
+}
+//FINAL MENU

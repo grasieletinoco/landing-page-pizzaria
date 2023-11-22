@@ -10,6 +10,7 @@
   <title>Pizza Master</title>
   <link rel="shortcut icon" href="./assets/img/pizza-icon.png" type="image/x-icon">
   <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/responsive.css">
   <script src="assets/js/main.js" defer></script>
 </head>
 <body>
@@ -22,8 +23,8 @@
           <div>
             <a href="index.html"><img class="header__logo" src="./assets/img/pizza-icon.png" alt="logo"></a>
           </div>
-          <nav>
-            <ul>
+          <nav id="menu" class="header__nav show__menu">
+            <ul class="header__nav__list">
               <li> <a href="index.html">Início</a> </li>
               <li> <a href="#cardapio">Cardápio</a> </li>
               <li> <a href="#contato">Contato</a> </li>
@@ -37,7 +38,8 @@
                 </div>
               </div>
             </ul>
-          </nav>   
+          </nav>
+          <div class="menu-icon" onclick="toggleMenu()">&#9776;</div>
         </div>
       </div>
     </section>
@@ -201,7 +203,7 @@
       <div class="container">
         <div class="main__localizacao__conteudo">
           <h2>Localização</h2>
-          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3750.618311328841!2d-43.933856!3d-19.940483!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa699c55676a433%3A0x59501931299d8bf3!2sP%C3%A1tio%20Savassi!5e0!3m2!1spt-BR!2sbr!4v1691381438953!5m2!1spt-BR!2sbr" width="900" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3750.618311328841!2d-43.933856!3d-19.940483!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa699c55676a433%3A0x59501931299d8bf3!2sP%C3%A1tio%20Savassi!5e0!3m2!1spt-BR!2sbr!4v1691381438953!5m2!1spt-BR!2sbr" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
       </div>
     </section>
